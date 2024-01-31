@@ -1,7 +1,6 @@
 
-.titulo-principal{
-    padding-left: 30px;
-}
+@import url("/reset.css");
+@import url("/style.css");
 
 #banner {
     width: 100%;
@@ -28,12 +27,12 @@ em strong {
     padding: 30px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
+/* ul { */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    /* width: 20%; */
+    /* margin-right: 15%; */
+/* } */
 
 .item{
     font-style: italic;
