@@ -1,45 +1,34 @@
-
-@import url("/reset.css");
 @import url("/style.css");
 
-#banner {
+ .banner {
     width: 100%;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
-}
-.titulo-centralizado, p{
+.titulo-principal{
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-#mision {
-    font-size: 20px;
+.principal p{
+    margin: 0 0 1em;
 }
 
-em strong {
-    color: red;
+.principal strong{
+    font-weight: bold;
 }
 
-.diferenciales {
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-/* ul { */
-    /* display: inline-block; */
-    /* vertical-align: top; */
-    /* width: 20%; */
-    /* margin-right: 15%; */
-/* } */
-
-.item{
+.principal em{
     font-style: italic;
 }
 
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
 
-
-.imgDiferenciales{
-    width: 50%;
+.imgDiferenciales {
+    width: 60%;
 }
