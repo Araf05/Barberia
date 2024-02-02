@@ -4,6 +4,13 @@
     width: 100%;
 }
 
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    background: #FEFEFE;
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -31,6 +38,7 @@
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE , #888888);
 }
 
 .mapa p{
@@ -38,7 +46,35 @@
     text-align: center;
 }
 
-.imgDiferenciales {
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    background: #888888;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item{
+    line-height: 1.5;
+}
+
+.item:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
     width: 60%;
 }
 

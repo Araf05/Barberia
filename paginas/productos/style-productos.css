@@ -1,5 +1,10 @@
 @import url("/style.css");
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .producto {
     width: 940px;
     margin: 0 auto;
