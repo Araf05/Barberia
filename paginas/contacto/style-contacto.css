@@ -58,3 +58,37 @@ td, th{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+@media screen and (max-width: 480px){
+    main{
+        width: auto;
+    }
+
+    form label, form legend{
+        text-align: center;
+    }
+
+    .input-padron{
+        width: 70%;
+        margin: 1em auto 2em auto;
+    }
+
+    fieldset {
+        margin: 1.5em auto;
+    }
+
+    .checkbox{
+        width: 90%;
+        margin: 1.5em auto;
+    }
+    
+    .enviar{
+        width: auto;
+        padding: 15px;
+    }
+
+    table{
+        margin: 2em auto;
+    }
+
+}
