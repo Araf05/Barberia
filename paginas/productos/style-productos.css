@@ -28,7 +28,7 @@ main {
 }
 
 .producto li:hover h2 {
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .producto li:active {
@@ -36,7 +36,7 @@ main {
 }
 
 .producto h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
