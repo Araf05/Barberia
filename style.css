@@ -11,7 +11,7 @@ header{
 
 .caja{
     position: relative;
-    width: 940px;
+    width: 940px; 
     margin: 0 auto;
 }
 
@@ -53,3 +53,16 @@ footer{
     margin: 20px;
 }
 
+@media screen and (max-width: 480px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+    .caja{
+        width: auto;
+    }
+}

@@ -95,3 +95,15 @@
     margin: 0 auto;
 
 }
+
+@media screen and (max-width: 480px) {
+    .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+        margin: 1em 1em;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+
+}
